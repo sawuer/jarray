@@ -8,7 +8,7 @@ window.jarray = (function() {
 	
 	return {
 
-		lastOf(arr) {
+		last(arr) {
 			return arr[arr.length - 1];
 		},
 
