@@ -8,6 +8,66 @@ window.jarray = (function() {
 	
 	return {
 
+		without(arr, withoutArr) {
+			var newArr = [];
+			for (var i = 0; i < arr.length; i++) {
+				if (!withoutArr.includes(arr[i])) {
+					newArr.push(arr[i]);
+				}
+			}
+			return newArr;
+		},
+
+		every(arr, index) {
+			var newArr = [];
+			var indexUp = index;
+			for (var i = 0; i < arr.length; i++) {
+				if (i === indexUp) {
+					newArr.push(arr[i]);
+					indexUp += index;
+				}
+			}
+			return newArr;
+		},
+
+		randomRange(arr, a, b) {
+	   	var newArr = [];
+	    arr.forEach(i => {
+        if (i >= a && i <= b) {
+          newArr.push(i);
+        }
+      });
+			return newArr[~~(Math.random() * newArr.length)];
+		},
+
+		odd(arr) {
+			var newArr = [];
+			arr.forEach(i => {
+				if ((typeof i === 'number') && (i % 2 !== 0)) {
+					newArr.push(i);
+				}
+			});
+  		return newArr;
+		},
+
+
+		max(arr) {
+			var max = 0;
+			for (var i = 0; i <= arr.length; i++) {
+				if (typeof i === 'number') {
+					max = i > max ? i : 0;
+				}
+			}
+			return max;
+		},
+
+		first(arr) {
+			return arr[0];
+		},
+		/////
+
+
+
 		last(arr) {
 			return arr[arr.length - 1];
 		},
@@ -42,8 +102,12 @@ window.jarray = (function() {
 			return arr.reduce((a, b) => a + b);
 		},
 
-		sort(arr) {
-			return arr.sort((a, b) => a > b);
+		sort(arr, sign) {
+			if (sign === '>') {
+				return arr.sort((a, b) => a > b);
+			} else if (sign === '<') {
+				return arr.sort((a, b) => a < b);
+			}
 		},
 
 		sortRange(arr, a, b) {
@@ -59,7 +123,7 @@ window.jarray = (function() {
 		even(arr) {
 			var newArr = [];
 			arr.forEach(i => {
-				if ((typeof i === 'number') && (i % 2 == 0)) {
+				if ((typeof i === 'number') && (i % 2 === 0)) {
 					newArr.push(i);
 				}
 			});
