@@ -7,6 +7,7 @@ Vanilla JS library for working with your arrays
 2. Include jarray.js to the page
 
 ## Methods
+#### jarray.contain([arr], element)
 #### jarray.even([arr])
 #### jarray.every([arr], index) --- return array with elements that haves every index num
 #### jarray.first([arr])

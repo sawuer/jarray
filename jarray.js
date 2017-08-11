@@ -8,6 +8,13 @@ window.jarray = (function() {
 	
 	return {
 
+		contain(arr, element) {
+			if (arr.includes(element)) {
+				return true;
+			}
+			return false
+		},
+
 		without(arr, withoutArr) {
 			var newArr = [];
 			for (var i = 0; i < arr.length; i++) {
