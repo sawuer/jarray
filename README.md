@@ -7,23 +7,23 @@ Vanilla JS library for working with your arrays
 2. Include jarray.js to the page
 
 ## Methods
-* #### jarray.even([arr])
-* ### jarray.every([arr], index) - return array with elements that haves every index num
-* jarray.first([arr])
-* jarray.last([arr])
-* jarray.max([arr]) 
-* jarray.missing([arr]) - find missing num from 1 to arr.length
-* jarray.odd([arr]) 
-* jarray.propsLength([arr])
-* jarray.randomRange([arr], a, b) - a and b are index
-* jarray.random([arr])
-* jarray.reverse([arr])
-* jarray.shuffle([arr])
-* jarray.sort([arr], sign) - sign will be '<' or '>'
-* jarray.sortRange([arr], a, b)
-* jarray.sum([arr]) - only for numbers
-* jarray.unique([arr]) - clear array of duplicate props
-* jarray.without([arr], [withoutArr]) 
+#### jarray.even([arr])
+#### jarray.every([arr], index) --- return array with elements that haves every index num
+#### jarray.first([arr])
+#### jarray.last([arr])
+#### jarray.max([arr]) 
+#### jarray.missing([arr]) --- find missing num from 1 to arr.length
+#### jarray.odd([arr]) 
+#### jarray.propsLength([arr])
+#### jarray.randomRange([arr], a, b) --- a and b are index
+#### jarray.random([arr])
+#### jarray.reverse([arr])
+#### jarray.shuffle([arr])
+#### jarray.sort([arr], sign) --- sign will be '<' or '>'
+#### jarray.sortRange([arr], a, b)
+#### jarray.sum([arr]) --- only for numbers
+#### jarray.unique([arr]) --- clear array of duplicate props
+#### jarray.without([arr], [withoutArr]) 
 
 ## Author
 
