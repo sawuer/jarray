@@ -8,24 +8,61 @@ Vanilla JS library for working with your arrays
 3. All methods are start from "jarray" object like that: jarray.contain(['Hello','Hello World','Hellord'], 'Hello');
 
 ## Methods
-#### contain([arr], element)
-#### even([arr])
-#### every([arr], index) -- return array with elements that haves every index num
-#### first([arr])
-#### last([arr])
-#### max([arr]) 
-#### missing([arr]) -- find missing num from 1 to arr.length
-#### odd([arr]) 
-#### propsLength([arr])
-#### randomRange([arr], a, b) -- a and b are index
-#### random([arr])
-#### reverse([arr])
-#### shuffle([arr])
-#### sort([arr], sign) -- sign will be '<' or '>'
-#### sortRange([arr], a, b)
-#### sum([arr]) -- only for numbers
-#### unique([arr]) -- clear array of duplicate props
-#### without([arr], [withoutArr]) 
+
+```
+contain([arr], element)
+```
+```
+even([arr])
+```
+```
+every([arr], index) // return array with elements that haves every index num
+```
+```
+first([arr])
+```
+```
+last([arr])
+```
+```
+max([arr]) 
+```
+```
+missing([arr]) // find missing num from 1 to arr.length
+```
+```
+odd([arr]) 
+```
+```
+propsLength([arr])
+```
+```
+randomRange([arr], a, b) // a and b are index
+```
+```
+random([arr])
+```
+```
+reverse([arr])
+```
+```
+shuffle([arr])
+```
+```
+sort([arr], sign) // sign will be '<' or '>'
+```
+```
+sortRange([arr], a, b)
+```
+```
+sum([arr]) // only for numbers
+```
+```
+unique([arr]) // clear array of duplicate props
+```
+```
+without([arr], [withoutArr]) 
+```
 
 ## Author
 
