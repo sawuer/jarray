@@ -5,26 +5,27 @@ Vanilla JS library for working with your arrays
 
 1. Download or clone project copy
 2. Include jarray.js to the page
+3. All methods are start from "jarray" object like that: jarray.contain(['Hello','Hello World','Hellord'], 'Hello');
 
 ## Methods
-#### jarray.contain([arr], element)
-#### jarray.even([arr])
-#### jarray.every([arr], index) --- return array with elements that haves every index num
-#### jarray.first([arr])
-#### jarray.last([arr])
-#### jarray.max([arr]) 
-#### jarray.missing([arr]) --- find missing num from 1 to arr.length
-#### jarray.odd([arr]) 
-#### jarray.propsLength([arr])
-#### jarray.randomRange([arr], a, b) --- a and b are index
-#### jarray.random([arr])
-#### jarray.reverse([arr])
-#### jarray.shuffle([arr])
-#### jarray.sort([arr], sign) --- sign will be '<' or '>'
-#### jarray.sortRange([arr], a, b)
-#### jarray.sum([arr]) --- only for numbers
-#### jarray.unique([arr]) --- clear array of duplicate props
-#### jarray.without([arr], [withoutArr]) 
+#### contain([arr], element)
+#### even([arr])
+#### every([arr], index) -- return array with elements that haves every index num
+#### first([arr])
+#### last([arr])
+#### max([arr]) 
+#### missing([arr]) -- find missing num from 1 to arr.length
+#### odd([arr]) 
+#### propsLength([arr])
+#### randomRange([arr], a, b) -- a and b are index
+#### random([arr])
+#### reverse([arr])
+#### shuffle([arr])
+#### sort([arr], sign) -- sign will be '<' or '>'
+#### sortRange([arr], a, b)
+#### sum([arr]) -- only for numbers
+#### unique([arr]) -- clear array of duplicate props
+#### without([arr], [withoutArr]) 
 
 ## Author
 
